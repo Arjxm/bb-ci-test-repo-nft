@@ -82,4 +82,4 @@ jobs:
         with: 
           buildbear-token: "${{ secrets.BUILDBEAR_TOKEN }}"
         env:
-          BUILDBEAR_BASE_URL: "${{ secrets.BUILDBEAR_BASE_URL }}"
+          BUILDBEAR_BASE_URL: "https://api.test.buildbear.io"
