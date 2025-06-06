@@ -81,5 +81,13 @@ jobs:
         uses: BuildBearLabs/buildbear_x_action@refactor
         with: 
           buildbear-token: "${{ secrets.BUILDBEAR_TOKEN }}"
+          network: |
+            [
+              {
+                "chainId": 1
+              }
+            ]
+
+          deploy-command: "make exe"
         env:
           BUILDBEAR_BASE_URL: "https://api.test.buildbear.io"
