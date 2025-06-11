@@ -91,3 +91,4 @@ jobs:
           deploy-command: "make exe"
         env:
           BUILDBEAR_BASE_URL: "https://api.test.buildbear.io"
+          NODE_ENV: "development"
