@@ -80,7 +80,7 @@ jobs:
       - name: test_ci
         uses: BuildBearLabs/buildbear_x_action@refactor
         with: 
-          buildbear-token: "${{ secrets.BUILDBEAR_TOKEN }}"
+          buildbear-api-key: "${{ secrets.BUILDBEAR_TOKEN }}"
           network: |
             [
               {
