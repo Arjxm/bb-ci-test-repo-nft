@@ -78,7 +78,7 @@ jobs:
         run: forge test
         
       - name: test_ci
-        uses: BuildBearLabs/buildbear_x_action@refactor
+        uses: BuildBearLabs/buildbear_x_action@v1.7.0
         with: 
           buildbear-api-key: "${{ secrets.BUILDBEAR_TOKEN }}"
           network: |
