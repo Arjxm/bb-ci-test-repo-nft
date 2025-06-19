@@ -80,7 +80,7 @@ jobs:
       - name: test_ci
         uses: BuildBearLabs/buildbear_x_action@v1.7.0
         with: 
-          buildbear-api-key: "${{ secrets.BUILDBEAR_TOKEN }}"
+          buildbear-api-key: "cb4de174-4f86-4a68-9f8c-e4048ef50af9"
           network: |
             [
               {
@@ -89,5 +89,3 @@ jobs:
             ]
 
           deploy-command: "make exe"
-        env:
-          BUILDBEAR_BASE_URL: "https://api.test.buildbear.io"
