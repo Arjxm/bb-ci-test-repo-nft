@@ -81,11 +81,4 @@ jobs:
         uses: BuildBearLabs/buildbear_x_action@main
         with: 
           buildbear-api-key: "cb4de174-4f86-4a68-9f8c-e4048ef50af9"
-          network: |
-            [
-              {
-                "chainId": 1
-              }
-            ]
-
-          deploy-command: "make exe"
+  
