@@ -80,5 +80,10 @@ jobs:
       - name: test_ci
         uses: BuildBearLabs/buildbear_x_action@main
         with: 
-          buildbear-api-key: ${{ secrets.BUILDBEAR_TOKEN }}
+          buildbear-api-key: "fa91dd21-8dde-4193-8d8e-1868c3af71fd"
+
+        env:
+          BUILDBEAR_BASE_URL: "https://backend.dev.buildbear.io"  
+
+
   
