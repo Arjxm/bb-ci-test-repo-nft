@@ -75,7 +75,7 @@ jobs:
         shell: bash
 
       - name: Run BB Action Test
-        run: forge test
+        run: forge test --profile ci
         
       - name: test_ci
         uses: BuildBearLabs/buildbear_x_action@feat/get-artifacts
@@ -85,7 +85,6 @@ jobs:
         env:
           BUILDBEAR_BASE_URL: "https://21a52c0f-d103-4ac2-b147-1e93013e9e46.mock.pstmn.io"
           LOG_LEVEL: debug
-          FOUNDRY_PROFILE: ci
 
 
   
