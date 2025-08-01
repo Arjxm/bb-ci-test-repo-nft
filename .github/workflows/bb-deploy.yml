@@ -85,6 +85,7 @@ jobs:
         env:
           BUILDBEAR_BASE_URL: "https://21a52c0f-d103-4ac2-b147-1e93013e9e46.mock.pstmn.io"
           LOG_LEVEL: debug
+          FOUNDRY_PROFILE: ci
 
 
   
