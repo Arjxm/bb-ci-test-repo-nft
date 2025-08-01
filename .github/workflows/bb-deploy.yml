@@ -78,12 +78,13 @@ jobs:
         run: forge test
         
       - name: test_ci
-        uses: BuildBearLabs/buildbear_x_action@main
+        uses: BuildBearLabs/buildbear_x_action@feat/get-artifacts
         with: 
           buildbear-api-key: "fa91dd21-8dde-4193-8d8e-1868c3af71fd"
 
         env:
-          BUILDBEAR_BASE_URL: "https://backend.dev.buildbear.io"  
+          BUILDBEAR_BASE_URL: "https://21a52c0f-d103-4ac2-b147-1e93013e9e46.mock.pstmn.io"
+          LOG_LEVEL: debug
 
 
   
